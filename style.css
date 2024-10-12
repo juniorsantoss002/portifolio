@@ -1,0 +1,119 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Cor de fundo */
+    color: #050505; /* Cor do texto */
+}
+
+header {
+    background-color: #333131; /* Fundo do cabeçalho */
+    color: #020202; /* Texto no cabeçalho */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Cor dos links do menu */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Cor ao passar o mouse */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#home {
+    background-color: #171c44; /* Cor de fundo do banner */
+    color: #fff; /* Cor do texto no banner */
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.banner-text {
+    max-width: 50%; /* Texto ocupa 50% da largura */
+}
+
+.banner-text h1 {
+    font-size: 48px;
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilizando os links de redes sociais */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.2); /* Aumenta um pouco o ícone ao passar o mouse */
+}
+
+/* Foto à direita do texto */
+.banner-photo img {
+    width: 250px; /* Ajusta a largura da foto */
+    height: auto;
+    border-radius: 50%; /* Foto circular */
+    border: 4px solid #fff; /* Borda branca ao redor da foto */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra na foto */
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
